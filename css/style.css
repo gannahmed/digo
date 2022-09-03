@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+/*******************GLOBAL*****************/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 4000px;
+}
+/******************HEADER****************/
+.header {
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  height: 700px;
+}
+.header img {
+  width: 15%;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+.background {
+  background-image: url(../images/box_img.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 410px;
+}
+.header-content {
+  color: #fff;
+  width: 40%;
+  margin-top: 50px;
+}
+.landing h1 {
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 60px;
+}
+.landing p {
+  font-family: "Cairo";
+  line-height: 30px;
+}
+.landing button {
+  border: none;
+  background-color: #fff;
+  padding: 15px 50px;
+  color: #2189eb;
+  text-transform: capitalize;
+  font-family: "cairo";
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/***********************/
+@media (max-width: 750px) {
+  .header {
+    height: 900px;
+    width: 100%;
+  }
+  .header img {
+    width: 30%;
+  }
+  .header-content {
+    width: 100%;
+  }
+}
+/*********************CLIENT***************/
+.client {
+  text-align: center;
+}
+.margin {
+  margin-top: 100px;
+}
+.font {
+  font-family: "Cairo";
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.grey {
+  color: grey;
+  font-family: "Cairo";
+  height: 40px;
+}
+.center-two {
+  padding-left: 50px;
+  color: black;
+  font-family: "Cairo";
+  padding-top: 70px;
+}
+.btn {
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  background-color: #000;
+  padding: 15px 50px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "cairo";
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+@media (min-width: 300px) and (max-width: 650px) {
+  .center-img {
+    width: 100%;
+  }
+}
+/************************PROJECTS**************/
+.background-two {
+  background-image: url(../images/midil.png);
+  background-size: 230px;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 550px;
+  text-align: center;
+}
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+/*******************TEST**************/
+.cover {
+  margin-top: 300px;
+  background-image: url(../images/test.png);
+  background-size: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: #fff;
+}
+.test {
+  padding-top: 150px;
+  font-family: "cairo";
+}
+.test h1 {
+  text-align: center;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.person {
+  border: 10px solid #e6e1e1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: start;
+  margin-left: 120px;
+}
+.flex {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.flex-content:last-child {
+  padding-left: 30px;
+  width: 50%;
+  font-size: 20px;
+}
+.flex-content p {
+  padding-top: 20px;
+}
+.flex-content span {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/*********************/
+@media (max-width: 1000px) {
+  .flex {
+    padding-top: 0;
+  }
+  .person {
+    margin-left: -36px;
+    margin-bottom: 100px;
+  }
+  .flex-content p {
+    width: 600px;
+  }
+}
+/*****************CONTACT US*******************/
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 1px solid #2189eb;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+form input {
+  display: block;
+}
+input,
+textarea {
+  padding-top: 20px;
+  width: 95%;
+  border: none;
+  border-bottom: 2px solid #2189eb;
+  outline: none;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #2189eb;
+  text-transform: capitalize;
+  font-family: "cairo";
+}
+.send {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  background-color: #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "cairo";
+}
+.bottom {
+  background-image: url(../images/bottom.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 290px;
+  width: 100%;
+}
+.icons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+.fa-brands {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: #2189eb;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.bg {
+  background-color: #0891f8;
+  color: #fff;
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Cairo";
+}
